@@ -10,7 +10,7 @@ def open_url():
     driver=webdriver.Chrome()
     driver.get(setting.OMP)
     yield driver
-    driver.quit
+    driver.quit()
 @pytest.fixture
 def refresh_page(open_url):
     yield
