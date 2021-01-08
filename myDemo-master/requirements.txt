@@ -60,7 +60,6 @@ requests==2.23.0
 requests-html==0.10.0
 requests-toolbelt==0.9.1
 selenium==3.141.0
-six==1.14.0
 soupsieve==2.0.1
 sqlparse==0.3.1
 tblib==1.7.0
