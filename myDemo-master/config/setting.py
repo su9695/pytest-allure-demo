@@ -3,7 +3,7 @@ BASIC_DIR = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(BASIC_DIR)
 
 # webdriver目录
-Driver_PATH = DATA_DIR+'/chromedriver.exe'
+Driver_PATH = BASIC_DIR+'/chromedriver.exe'
 
 # pages页面目录
 PAGES_DIR = os.path.join(BASIC_DIR,'pages')
