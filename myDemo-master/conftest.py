@@ -7,7 +7,7 @@ import pytest
 from selenium import webdriver
 @pytest.fixture(scope='class')
 def open_url():
-    driver=webdriver.Chrome(executable_path=Driver_PATH )
+    driver=webdriver.Chrome(executable_path=setting.Driver_PATH )
     driver.get(setting.OMP)
     yield driver
     driver.quit()
