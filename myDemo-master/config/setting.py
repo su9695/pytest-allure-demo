@@ -7,7 +7,7 @@ PAGES_DIR = os.path.join(BASIC_DIR,'pages')
 
 # data 数据源目录
 DATA_DIR = os.path.join(BASIC_DIR,'data')
-TESTDATA_EXCEL_PATH =DATA_DIR+'\\testData.xlsx'
+TESTDATA_EXCEL_PATH =DATA_DIR+'/testData.xlsx'
 
 # logs 日志大目录
 LOGS_DIR = os.path.join(BASIC_DIR,'logs')
