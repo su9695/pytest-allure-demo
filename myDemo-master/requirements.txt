@@ -14,7 +14,7 @@ colorlog==4.6.2
 cssselect==1.1.0
 ddt==1.4.1
 demjson==2.2.4
-Django==3.0.6
+Django==3.1.6
 et-xmlfile==1.0.1
 execnet==1.7.1
 fake-useragent==0.1.11
